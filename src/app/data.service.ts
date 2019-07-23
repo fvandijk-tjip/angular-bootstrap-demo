@@ -18,7 +18,7 @@ export class DataService {
     return this.contacts;
   }
 
-  public createContact(contact: {id: number, name: string, description: string, email: string}){
+  public createContact(contact: {id: number, name: string, description: string, email: string}) {
     this.contacts.push(contact);
   }
 }
